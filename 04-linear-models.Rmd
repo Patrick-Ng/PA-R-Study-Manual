@@ -136,7 +136,7 @@ The $R^2$ statistic provides an alternative measure of fit. It takes the proport
 
 $$R^2 = \frac{\text{TSS} - \text{RSS}}{\text{TSS}} = 1 - \frac{\text{RSS}}{\text{TSS}}$$
 
-Where $\text{TSS} = \sum(y_i - \hat{y})^2$ is the total sum of squares. TSS measures the total variance in the response YY and can be considered the amount of variability inherent in the response before the regression is performed. In contrast, RSS measures the amount of variability that is left unexplained after performing the regression. 
+Where $\text{TSS} = \sum(y_i - \bar{y})^2$ is the total sum of squares. TSS measures the total variance in the response YY and can be considered the amount of variability inherent in the response before the regression is performed. In contrast, RSS measures the amount of variability that is left unexplained after performing the regression. 
 
 Hench, $\text{TSS} - \text{RSS}$ measures the amount of variability in the response that is explained (or removed) by performing the regression, and R^2 measures the proportion of variability in $Y$ that can be explained using $X$. 
 
